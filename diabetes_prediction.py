@@ -1,8 +1,5 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
-import warnings
-warnings.filterwarnings('ignore')
 df = pd.read_csv(r"C:\Users\KIIT\Downloads\diabetes.csv")
 df.head()
 #pedigree= chances based on family history from 0.08 to 2.42
